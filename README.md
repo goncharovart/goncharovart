@@ -1,16 +1,20 @@
-## Hi there 👋
+### Hi, I'm Artur.
 
-<!--
-**goncharovart/goncharovart** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a Go backend developer focused on distributed systems and developer tooling.
 
-Here are some ideas to get you started:
+I work with `Go` to build services, CLI tools, and libraries — most of my time lately goes into:
+- Backend microservices with **gRPC**, **PostgreSQL**, **Redis** and **Kafka**
+- Observability stacks built on **OpenTelemetry** + **Prometheus**
+- Infrastructure with **Docker** and **Kubernetes**
+- Production reliability: graceful shutdown, idempotency, retries, circuit breakers
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I'm currently sharpening:
+- Go runtime internals — GC, escape analysis, `pprof` profiling
+- Distributed systems patterns — leader election, saga, transactional outbox
+- System design at middle / senior backend level
+
+📫 **Reach out:** [goncharovart on GitHub](https://github.com/goncharovart)
+
+---
+
+<sub>Open to middle Go backend roles. Bio in English by default — pinned repos and project READMEs are EN; happy to chat in EN or RU.</sub>
