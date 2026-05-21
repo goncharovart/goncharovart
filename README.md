@@ -2,19 +2,27 @@
 
 I'm a Go backend developer focused on distributed systems and developer tooling.
 
-I work with `Go` to build services, CLI tools, and libraries — most of my time lately goes into:
-- Backend microservices with **gRPC**, **PostgreSQL**, **Redis** and **Kafka**
-- Observability stacks built on **OpenTelemetry** + **Prometheus**
-- Infrastructure with **Docker** and **Kubernetes**
-- Production reliability: graceful shutdown, idempotency, retries, circuit breakers
+Most of my day is `Go` — services, libraries, and the occasional CLI. Comfortable area:
+- Backend microservices with **gRPC**, **PostgreSQL**, **Redis**, **Kafka**, **RabbitMQ**
+- Observability built on **OpenTelemetry** + **Prometheus** + **Grafana** + **Jaeger**
+- Infrastructure with **Docker**, **Kubernetes**, **Helm**, **GitLab CI**
+- Production reliability: graceful shutdown, idempotency keys, retries with jitter, circuit breakers, transactional outbox
 
-I'm currently sharpening:
-- Go runtime internals — GC, escape analysis, `pprof` profiling
-- Distributed systems patterns — leader election, saga, transactional outbox
+### Currently building
+
+**[Sundial](https://github.com/goncharovart/sundial)** — durable distributed cron scheduler for Go.
+Postgres advisory locks for leader election, OpenTelemetry-instrumented, per-job missed-fire recovery policy. The case it solves: cron semantics + Postgres durability that scales beyond a single node, without bringing in Redis, Kafka, or Temporal.
+
+**[tinylink](https://github.com/goncharovart/tinylink)** — URL shortener documented as a four-stage `pprof`-driven optimization walkthrough. Every stage is a separate commit with a reproducible k6 benchmark and a flame graph in `docs/`.
+
+### Sharpening
+
+- Go runtime internals — GC, escape analysis, `pprof` deep dive
+- Distributed systems patterns — Raft alternatives via Postgres advisory locks, saga, transactional outbox
 - System design at middle / senior backend level
 
-📫 **Reach out:** [goncharovart on GitHub](https://github.com/goncharovart)
+📫 **Reach out:** [@gonartur](https://t.me/gonartur) · paladei702@gmail.com
 
 ---
 
-<sub>Open to middle Go backend roles. Bio in English by default — pinned repos and project READMEs are EN; happy to chat in EN or RU.</sub>
+<sub>Open to middle Go backend roles. EN & RU. Project READMEs are EN by default; happy to switch.</sub>
