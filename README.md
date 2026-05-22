@@ -25,7 +25,7 @@ Postgres advisory locks for leader election, OpenTelemetry-instrumented, missed-
 - Distributed systems patterns — Raft alternatives via Postgres advisory locks, saga, transactional outbox
 - System design at middle / senior backend level
 
-📫 **Reach out:** [@gonartur](https://t.me/gonartur) · paladei702@gmail.com
+📫 **Reach out:** [@gonartur](https://t.me/gonartur) · goncharov.artur.02@gmail.com
 
 ---
 
