@@ -15,7 +15,9 @@ Postgres advisory locks for leader election, OpenTelemetry-instrumented, missed-
 
 **[runlet](https://github.com/goncharovart/runlet)** — single-binary runner for Go scripts with inline dependencies. Like `uv run` for Python or `cargo script` for Rust, but for Go. Magic-comment dep declarations, content-addressed cache, shebang-friendly. Closes a documented gap in the Go ecosystem.
 
-**[tinylink](https://github.com/goncharovart/tinylink)** — URL shortener documented as a four-stage `pprof`-driven optimization walkthrough. Every stage is a separate commit with a reproducible k6 benchmark and a flame graph in `docs/`.
+**[tinylink](https://github.com/goncharovart/tinylink)** — URL shortener documented as a five-stage `pprof`-driven optimization walkthrough. Every stage is a separate commit with a reproducible k6 benchmark; the bonus stage-5 monotonic allocator runs 22× faster than the baseline random+retry path (per included `go test -bench`).
+
+**[goeval](https://github.com/goncharovart/goeval)** — RAGAS for Go. Pre-MVP scaffold of a Go-native RAG evaluation library: streaming `dataset → evaluator → result` pipeline, LLM-as-judge abstraction, deterministic metrics for CI gates. Python owns this space; Go teams currently shell out to Python or reinvent metrics. Roadmap to v0.1.0: 6 weeks of evening dev.
 
 ### Sharpening
 
